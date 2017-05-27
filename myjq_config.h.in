@@ -1,0 +1,6 @@
+#pragma once
+
+// the configured options and settings for Tutorial
+#define myjq_VERSION_MAJOR @myjq_VERSION_MAJOR@
+#define myjq_VERSION_MINOR @myjq_VERSION_MINOR@
+#define myjq_VERSION_PATCH @myjq_VERSION_PATCH@
