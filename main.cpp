@@ -3,12 +3,14 @@
 #include <boost/program_options.hpp>
 #include <boost/format.hpp>
 #include "myjq_config.h"
+#include "parser.hpp"
 
 namespace po = boost::program_options;
 
 using namespace std;
 
 int main(int argc, char* argv[]) {
+  parser::Object obj();
   po::options_description desc("Allowed options");
 
   desc.add_options()
