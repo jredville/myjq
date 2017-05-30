@@ -1,1 +1,1 @@
-add_library(parser parser.hpp parser.cpp)
+add_library(parser parser.cpp)

@@ -1,6 +1,8 @@
 cmake_minimum_required (VERSION 3.0)
 project (myjq)
 
+set(CMAKE_CXX_STANDARD 14)
+
 # The version number.
 set(myjq_VERSION_MAJOR 0)
 set(myjq_VERSION_MINOR 0)

@@ -3,7 +3,7 @@
 #include <boost/program_options.hpp>
 #include <boost/format.hpp>
 #include "myjq_config.h"
-#include "parser.hpp"
+#include "parser.h"
 
 namespace po = boost::program_options;
 
@@ -33,7 +33,6 @@ int main(int argc, char* argv[]) {
     cout << desc << endl;
     return 0;
   }
-
 
   if (vm.count("compression")) {
     cout << "compression level was set to "
